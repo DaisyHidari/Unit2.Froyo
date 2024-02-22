@@ -11,10 +11,10 @@ const flavorsArray = flavorsInput.split(",");
 // Convert the array of strings into an array of flavorCount.
 const flavorCount = [];
 for (const flavor of flavorsArray) {
-    if {
-        
+    if (flavorCount[flavor]) {
+        flavorCount[flavor]++;
     } else {
-        
+        flavorCount[flavor] = 1;
     }
 }
 
@@ -23,9 +23,3 @@ for (const flavor of flavorsArray) {
 console.log("Numbers of Froyo Flavors:", flavorCount);
 
 
-// to delete
-//     let i = 0; i < stringArray.length; i++) {
-//   const str = stringArray[i];
-//   const number = parseInt(str);
-//   numbers.push(number);
-// }
